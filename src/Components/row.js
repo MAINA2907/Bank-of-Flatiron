@@ -1,6 +1,3 @@
-import React, {useState} from 'react';
-import Button from './button';
-
 
 
 function Row ({transactions: transaction}) {
@@ -12,18 +9,10 @@ function Row ({transactions: transaction}) {
         <td>{transaction.description}</td>
         <td>{transaction.category}</td>
         <td>{transaction.amount}</td>
-        <td>
-       
-        <Button value="delete"/>
-    
-
-        </td>
+        
       </tr>
     )
   })
-  
-  
-  
   
     return (
         <>
